@@ -1,6 +1,12 @@
 import jQuery from './jQuery.js';
+
+// jQuery静态成员
 import './static/noConflict.js';
 import './static/trim.js';
+
+jQuery.isArray = Array.isArray;
+jQuery.parseJSON = JSON.parse;
+jQuery.now = Date.now;
 
 
 // jQuery 默认占据两个全局变量jQuery、$
