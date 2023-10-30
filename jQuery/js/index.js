@@ -1,5 +1,6 @@
 import jQuery from './jQuery.js';
 import './static/noConflict.js';
+import './static/trim.js';
 
 
 // jQuery 默认占据两个全局变量jQuery、$
